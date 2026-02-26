@@ -1,0 +1,13 @@
+<p>product-list works!</p>
+<div class="header">
+  <div>ID</div>
+  <div>Name</div>
+  <div>Category</div>
+  <div>Price</div>
+</div>
+<div class="row" *ngFor="let product of products">
+  <div>{{ product.id }}</div>
+  <div>{{ product.name }}</div>
+  <div>{{ product.category }}</div>
+  <div>{{ product.price }} </div>
+</div>
